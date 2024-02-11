@@ -11,4 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: python:3.9-slim
-
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
