@@ -1,6 +1,0 @@
-# Dependencies for this lab
-Flask
-nose
-pinocchio
-coverage
-pylint
