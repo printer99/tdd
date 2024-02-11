@@ -4,4 +4,3 @@ nose
 pinocchio
 coverage
 pylint
-flake8
